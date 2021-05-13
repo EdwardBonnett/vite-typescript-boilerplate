@@ -1,2 +1,6 @@
 *.css
 *.html
+.eslintrc.js
+node_modules
+*.json
+vite.config.ts

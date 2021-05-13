@@ -10,7 +10,7 @@ const config: UserConfig = {
             '/@/': join(__dirname, 'src'),
         },
     },
-    plugins: [eslintPlugin()],
+    plugins: [eslintPlugin({ cache: false })],
 };
 
 export default config;
